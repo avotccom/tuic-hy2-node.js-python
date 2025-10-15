@@ -11,7 +11,7 @@ DEFAULT_PORT=22222         # 若未提供参数则使用此端口
 AUTH_PASSWORD="otc-2025"   # 建议修改为复杂密码
 CERT_FILE="cert.pem"
 KEY_FILE="key.pem"
-SNI="www.bing.com"
+SNI="xxxxxxxx.tk"
 ALPN="h3"
 # ------------------------------
 
@@ -147,4 +147,5 @@ main() {
 }
 
 main "$@"
+
 
